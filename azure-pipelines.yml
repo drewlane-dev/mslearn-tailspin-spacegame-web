@@ -42,7 +42,7 @@ steps:
       command: 'restore'
       restoreSolution: '**/*.sln'
       feedsToUse: 'select'
-      vstsFeed: 'https://pkgs.dev.azure.com/drewlanedev0487/_packaging/drewlanedev0487/nuget/v3/index.json'
+      vstsFeed: e5d69d1a-6d86-4aa7-916b-80b5d96f1413
 
   - task: DotNetCoreCLI@2
     displayName: 'Build the project - $(buildConfiguration)'
